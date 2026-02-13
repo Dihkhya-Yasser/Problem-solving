@@ -1,4 +1,4 @@
-#Write a program that accepts daily temperatures for a month (30 days) as a 2D array.
+# Write a program that accepts daily temperatures for a month (30 days) as a 2D array.
 # +Requirements:
 #   -Calculate the average temperature for each week.
 #   -Find the coldest and warmest day in the month along with its position (week and day).
@@ -48,4 +48,5 @@ while True:
     c_days = np.array(c_days, dtype=np.float16)
     w_days = np.array(w_days, dtype=np.float16)
     print(f"-The coldest day: Weak {c_days[:, 1].min}")
+
     break
